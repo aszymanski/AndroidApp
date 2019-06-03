@@ -4,12 +4,17 @@ using Android.Support.V7.App;
 using Android.Runtime;
 using Android.Widget;
 using Android.Webkit;
+using System;
 
 namespace SampleApp1
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
+        public void GoToActivity(Type myActivity)
+        {
+            StartActivity(myActivity);
+        }
 
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -23,8 +28,9 @@ namespace SampleApp1
 
             button.Click += delegate
             {
-                button.SetBackgroundColor(Android.Graphics.Color.Blue);
-                SetContentView(Resource.Layout.test);
+                //button.SetBackgroundColor(Android.Graphics.Color.Blue);
+                //SetContentView(Resource.Layout.test);
+                GoToActivity(typeof(SampleActivity));
             };
 
 

@@ -2591,14 +2591,14 @@ namespace SampleApp1
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b1
-			public const int masked = 2131230897;
+			// aapt resource value: 0x7f0800b0
+			public const int masked = 2131230896;
 			
 			// aapt resource value: 0x7f0800a0
 			public const int media_actions = 2131230880;
 			
-			// aapt resource value: 0x7f0800af
-			public const int message = 2131230895;
+			// aapt resource value: 0x7f0800ae
+			public const int message = 2131230894;
 			
 			// aapt resource value: 0x7f080031
 			public const int middle = 2131230769;
@@ -2846,11 +2846,8 @@ namespace SampleApp1
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b0
-			public const int visible = 2131230896;
-			
-			// aapt resource value: 0x7f0800ae
-			public const int webView1 = 2131230894;
+			// aapt resource value: 0x7f0800af
+			public const int visible = 2131230895;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3222,8 +3219,8 @@ namespace SampleApp1
 			// aapt resource value: 0x7f090010
 			public const int abc_toolbar_collapse_description = 2131296272;
 			
-			// aapt resource value: 0x7f090028
-			public const int action_settings = 2131296296;
+			// aapt resource value: 0x7f090029
+			public const int action_settings = 2131296297;
 			
 			// aapt resource value: 0x7f090027
 			public const int app_name = 2131296295;
@@ -3237,8 +3234,8 @@ namespace SampleApp1
 			// aapt resource value: 0x7f090020
 			public const int character_counter_pattern = 2131296288;
 			
-			// aapt resource value: 0x7f090029
-			public const int firstButton = 2131296297;
+			// aapt resource value: 0x7f09002a
+			public const int firstButton = 2131296298;
 			
 			// aapt resource value: 0x7f090021
 			public const int password_toggle_content_description = 2131296289;
@@ -3254,6 +3251,9 @@ namespace SampleApp1
 			
 			// aapt resource value: 0x7f090025
 			public const int path_password_strike_through = 2131296293;
+			
+			// aapt resource value: 0x7f090028
+			public const int sample_activity = 2131296296;
 			
 			// aapt resource value: 0x7f090011
 			public const int search_menu_title = 2131296273;
